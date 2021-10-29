@@ -20,7 +20,7 @@ DEBUG = process.env.DEBUG === undefined ? false : convertToBool(process.env.DEBU
 
 module.exports = {
     VERSION: 'v2.0.1 Global Stable',
-    CHANNEL: 'https://t.me/cbot_plugin',
+    CHANNEL: 'https://t.me/remasterplugin',
     SESSION: process.env.CBOT_SESSION === undefined ? '' : process.env.CBOT_SESSION,
     ANTİLİNK: process.env.ANTİ_LİNK === undefined ? 'false' : process.env.ANTİ_LİNK,
     AUTOBİO: process.env.AUTO_BİO === undefined ? 'false' : process.env.AUTO_BİO,
@@ -56,8 +56,6 @@ module.exports = {
     SUDO: process.env.SUDO === undefined ? false : process.env.SUDO,
     DEBUG: DEBUG,
     COFFEEHOUSE_API_KEY: process.env.COFFEEHOUSE_API_KEY === undefined ? false : process.env.COFFEEHOUSE_API_KEY,
-    TOBZ_API_KEY: process.env.TOBZ_API_KEY === undefined ? false : process.env.TOBZ_API_KEY,
-    PDF_API_KEY: process.env.PDF_API_KEY === undefined ? false : process.env.PDF_API_KEY,
     WITAI_API: "TEYMELA6DMC4XB5YM3SPTTQWUUIBKURG",
     SUPPORT: "94764746599-1629478976",
     SUPPORT2: "94764746599-1631027903",
